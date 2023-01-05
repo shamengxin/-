@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-05T19:56:53 CST" name="com.shamengxin.TestHelloMaven" finished-at="2023-01-05T19:56:53 CST" duration-ms="32">
+    <groups>
+    </groups>
+    <test started-at="2023-01-05T19:56:53 CST" name="Command line test" finished-at="2023-01-05T19:56:53 CST" duration-ms="32">
+      <class name="com.shamengxin.TestHelloMaven">
+        <test-method signature="testAdd()[pri:0, instance:com.shamengxin.TestHelloMaven@1ad282e0]" started-at="2023-01-05T19:56:53 CST" name="testAdd" finished-at="2023-01-05T19:56:53 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testAdd2()[pri:0, instance:com.shamengxin.TestHelloMaven@1ad282e0]" started-at="2023-01-05T19:56:53 CST" name="testAdd2" finished-at="2023-01-05T19:56:53 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2 -->
+      </class> <!-- com.shamengxin.TestHelloMaven -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.shamengxin.TestHelloMaven -->
+</testng-results>
