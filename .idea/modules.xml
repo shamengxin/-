@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Maven/Hello/Hello.iml" filepath="$PROJECT_DIR$/Maven/Hello/Hello.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Maven/Maven.iml" filepath="$PROJECT_DIR$/Maven/Maven.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Maven/javase-maven-01/javase-maven-01.iml" filepath="$PROJECT_DIR$/Maven/javase-maven-01/javase-maven-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java框架.iml" filepath="$PROJECT_DIR$/.idea/java框架.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Maven/web-maven-02/web-maven-02.iml" filepath="$PROJECT_DIR$/Maven/web-maven-02/web-maven-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
     </modules>
   </component>
 </project>

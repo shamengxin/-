@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Maven/web-maven-02" />
   </component>
@@ -10,8 +11,14 @@
         <option value="$PROJECT_DIR$/Maven/web-maven-02/pom.xml" />
         <option value="$PROJECT_DIR$/Maven/Hello/pom.xml" />
         <option value="$PROJECT_DIR$/Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-001-introduction/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/junit-test/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="13" project-jdk-type="JavaSDK" />
+  <component name="ProjectResources">
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="D:/浏览器下载地址/mybatis-3-config.dtd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="D:/浏览器下载地址/mybatis-3-mapper.dtd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK" />
 </project>

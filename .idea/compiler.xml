@@ -7,17 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web-maven-02" />
+        <module name="junit-test" />
         <module name="Maven" />
         <module name="javase-maven-01" />
+        <module name="mybatis-001-introduction" />
         <module name="Hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Hello" target="13" />
-      <module name="javase-maven-01" target="13" />
       <module name="javase-maven-01 (1)" target="1.5" />
-      <module name="Maven" target="1.5" />
-      <module name="web-maven-02" target="13" />
+      <module name="mybatis" target="13" />
     </bytecodeTargetLevel>
   </component>
 </project>
