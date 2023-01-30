@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/Maven/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/mybatis-001-introduction/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/junit-test/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-002-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-003-configuration/pom.xml" />
       </list>
     </option>
   </component>
@@ -20,5 +22,5 @@
     <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="D:/浏览器下载地址/mybatis-3-config.dtd" />
     <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="D:/浏览器下载地址/mybatis-3-mapper.dtd" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
 </project>
