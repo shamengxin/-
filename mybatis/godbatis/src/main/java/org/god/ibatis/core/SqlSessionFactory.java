@@ -4,9 +4,9 @@ import java.util.Map;
 
 /**
  * SqlSessionFactory对象：
- *      一个数据库对应一个SqlSessionFactory对象。
- *      通过SqlSessionFactory对象可以获取SqlSession对象。（开启会话）
- *      一个SqlSessionFactory对象可以开启多个SqlSession会话。
+ * 一个数据库对应一个SqlSessionFactory对象。
+ * 通过SqlSessionFactory对象可以获取SqlSession对象。（开启会话）
+ * 一个SqlSessionFactory对象可以开启多个SqlSession会话。
  */
 public class SqlSessionFactory {
     //思考：SqlSessionFactory中应该有那些属性?
@@ -23,14 +23,31 @@ public class SqlSessionFactory {
      * key是sqlId
      * value是对应的SQL标签信息对象
      */
-    private Map<String,MappedStatement> mappedStatements;
+    private Map<String, MappedStatement> mappedStatements;
 
     public Transaction getTransaction() {
         return transaction;
     }
 
+    public Map<String, MappedStatement> getMappedStatements() {
+        return mappedStatements;
+    }
+
     public void setTransaction(Transaction transaction) {
         this.transaction = transaction;
+    }
+
+    /**
+     * 获取sql会话对象
+     *
+     * @return
+     */
+    public SqlSession openSession() {
+        //开启会话的前提是开启连接(连接打开了）
+        transaction.openConnection();
+        //创建SqlSession对象
+        SqlSession sqlSession = new SqlSession(this);
+        return sqlSession;
     }
 
     public SqlSessionFactory(Transaction transaction, Map<String, MappedStatement> mappedStatements) {

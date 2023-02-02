@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!--样例-->
 <mapper namespace="user">
     <insert id="insertUser">
-        insert into t_user values(#{id},#{name},#{age})
+        insert into t_user(id,name,age) values(#{id},#{name},#{age})
     </insert>
 
-    <select id="selectById" resultType="com.shamengxin.mybatis.pojo.User">
+    <select id="selectById" resultType="com.shamenxin.godbatis.pojo.User">
         select * from t_user where id=#{id}
     </select>
 

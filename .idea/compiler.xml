@@ -10,12 +10,14 @@
         <module name="junit-test" />
         <module name="Maven" />
         <module name="javase-maven-01" />
+        <module name="mybatis-004-web" />
         <module name="Hello" />
         <module name="godbatis" />
         <module name="parse-xml-by-dom4j" />
         <module name="mybatis-001-introduction" />
         <module name="mybatis-002-crud" />
         <module name="mybatis-003-configuration" />
+        <module name="godbatis-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
