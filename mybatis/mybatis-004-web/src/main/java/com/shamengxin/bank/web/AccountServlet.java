@@ -35,6 +35,8 @@ public class AccountServlet extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/error1.html");
         } catch (TransferException e) {
             response.sendRedirect(request.getContextPath() + "/error2.html");
+        } catch (Exception e) {
+            response.sendRedirect(request.getContextPath() + "/error2.html");
         }
 
     }

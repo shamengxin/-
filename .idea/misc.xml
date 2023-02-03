@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/mybatis/godbatis/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/godbatis-test/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/mybatis-004-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/javassist-test/pom.xml" />
       </list>
     </option>
   </component>
