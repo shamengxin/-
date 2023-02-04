@@ -16,6 +16,7 @@
         <module name="mybatis-004-web" />
         <module name="Hello" />
         <module name="parse-xml-by-dom4j" />
+        <module name="mybatis-005-crud2" />
         <module name="javassist-test" />
         <module name="mybatis-002-crud" />
         <module name="godbatis-test" />
