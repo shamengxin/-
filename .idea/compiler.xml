@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Maven" />
         <module name="godbatis" />
+        <module name="mybatis-007-param" />
         <module name="mybatis-001-introduction" />
         <module name="mybatis-003-configuration" />
         <module name="web-maven-02" />
         <module name="junit-test" />
+        <module name="mybatis-006-antic" />
         <module name="javase-maven-01" />
         <module name="mybatis-004-web" />
         <module name="Hello" />
