@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/mybatis/mybatis-005-crud2/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/mybatis-006-antic/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/mybatis-007-param/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-008-select/pom.xml" />
       </list>
     </option>
   </component>
