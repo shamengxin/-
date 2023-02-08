@@ -26,7 +26,17 @@
         <option value="$PROJECT_DIR$/mybatis/mybatis-007-param/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/mybatis-008-select/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/mybatis-009-dynamic-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-010-advanced-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-011-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-011-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-012-generator1/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-013-generator2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mybatis/mybatis-011-generator1/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectResources">

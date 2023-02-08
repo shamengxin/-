@@ -51,48 +51,39 @@
         select * from t_car where id=#{id}
     </select>
 
+    <!--声明一个sql片段-->
+    <sql id="carColumnNameSql">
+        id,
+        car_num as carNum,
+        brand,
+        guide_price as guidePrice,
+        produce_time as produceTime,
+        car_type as carType
+    </sql>
+
     <select id="selectById2" resultType="Car">
         select
-            id,
-            car_num as carNum,
-            brand,
-            guide_price as guidePrice,
-            produce_time as produceTime,
-            car_type as carType
+            <!--将sql片段包含进来-->
+            <include refid="carColumnNameSql"/>
         from t_car where id=#{id}
     </select>
 
     <select id="selectByBrandLike" resultType="Car">
         select
-            id,
-            car_num as carNum,
-            brand,
-            guide_price as guidePrice,
-            produce_time as produceTime,
-            car_type as carType
+        <include refid="carColumnNameSql"/>
         from t_car
         where brand like "%"#{brand}"%"
     </select>
 
     <select id="selectAll" resultType="Car">
         select
-            id,
-            car_num as carNum,
-            brand,
-            guide_price as guidePrice,
-            produce_time as produceTime,
-            car_type as carType
+        <include refid="carColumnNameSql"/>
         from t_car
     </select>
 
     <select id="selectById" resultType="Car">
         select
-            id,
-            car_num as carNum,
-            brand,
-            guide_price as guidePrice,
-            produce_time as produceTime,
-            car_type as carType
+        <include refid="carColumnNameSql"/>
         from t_car where id=#{id}
     </select>
 

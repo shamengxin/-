@@ -30,6 +30,14 @@
     <file url="file://$PROJECT_DIR$/mybatis/mybatis-008-select/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/mybatis-009-dynamic-sql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/mybatis-009-dynamic-sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-010-advanced-mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-010-advanced-mapping/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-011-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-011-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-012-generator1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-012-generator1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-013-generator2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-013-generator2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/parse-xml-by-dom4j/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/parse-xml-by-dom4j/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
