@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-014-page" />
         <module name="Maven" />
         <module name="mybatis-009-dynamic-sql" />
         <module name="godbatis" />
@@ -17,6 +18,7 @@
         <module name="web-maven-02" />
         <module name="junit-test" />
         <module name="mybatis-006-antic" />
+        <module name="mybatis-015-annotation" />
         <module name="mybatis-012-generator1" />
         <module name="javase-maven-01" />
         <module name="mybatis-004-web" />
