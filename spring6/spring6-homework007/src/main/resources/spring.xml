@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--数组当中元素为简单类型-->
+    <bean id="Person" class="com.shamengxin.spring6.beans.Person">
+        <property name="favoriteFoods">
+            <array>
+                <value>汉堡</value>
+                <value>炸鸡</value>
+                <value>薯条</value>
+            </array>
+        </property>
+    </bean>
+
+    <!--数组当中元素为非简单类型-->
+    <bean id="Goods1" class="com.shamengxin.spring6.beans.Goods">
+        <property name="name" value="苹果"/>
+    </bean>
+
+    <bean id="Goods2" class="com.shamengxin.spring6.beans.Goods">
+        <property name="name" value="梨子"/>
+    </bean>
+
+    <bean id="Goods3" class="com.shamengxin.spring6.beans.Goods">
+        <property name="name" value="香蕉"/>
+    </bean>
+    <bean id="Order" class="com.shamengxin.spring6.beans.Order">
+        <property name="goods">
+            <array>
+                <ref bean="Goods1"/>
+                <ref bean="Goods2"/>
+                <ref bean="Goods3"/>
+            </array>
+        </property>
+    </bean>
+
+    <!--List集合-->
+    <bean id="People" class="com.shamengxin.spring6.beans.People">
+        <property name="names">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--set集合：无序不可重复-->
+    <bean id="Company" class="com.shamengxin.spring6.beans.Company">
+        <property name="phones">
+            <set>
+                <value>110</value>
+                <value>120</value>
+                <value>119</value>
+                <value>119</value>
+                <value>120</value>
+            </set>
+        </property>
+    </bean>
+
+
+</beans>

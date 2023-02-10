@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="OrderDaoBean" class="com.shamengxin.spring6.dao.OrderDao"/>
+    <bean id="UserDaoBean" class="com.shamengxin.spring6.dao.UserDao"/>
+    <bean id="OrderServiceBean" class="com.shamengxin.spring6.service.OrderService">
+        <!--可以使用下标-->
+        <!--
+        <constructor-arg index="0" ref="UserDaoBean"/>
+        <constructor-arg index="1" ref="OrderDaoBean"/>
+        -->
+        <!--可以使用构造函数参数名-->
+        <constructor-arg name="userDao" ref="UserDaoBean"/>
+        <constructor-arg name="orderDao" ref="OrderDaoBean"/>
+        <!--不指定下标和参数名也行，自动推断，但不建议-->
+        <!--
+        <constructor-arg ref="UserDaoBean"/>
+        <constructor-arg ref="OrderDaoBean"/>
+        -->
+    </bean>
+
+</beans>

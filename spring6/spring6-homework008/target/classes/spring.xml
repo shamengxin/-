@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="People" class="com.shamengxin.spring6.beans.People">
+        <property name="addrs">
+            <map>
+                <!--如果key不是简单类型，使用key-ref属性-->
+                <!--如果value不是简单类型，使用value-ref属性-->
+                <entry key="1" value="湖北"/>
+                <entry key="2" value="北京"/>
+                <entry key="3" value="重庆"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="driver">com.mysql.cj.jdbc.Driver</prop>
+                <prop key="url">jdbc:mysql://localhost:3306/spring</prop>
+                <prop key="username">root</prop>
+                <prop key="password">heyufeng</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

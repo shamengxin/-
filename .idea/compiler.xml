@@ -6,34 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-014-page" />
         <module name="Maven" />
-        <module name="mybatis-009-dynamic-sql" />
-        <module name="godbatis" />
-        <module name="mybatis-007-param" />
-        <module name="mybatis-001-introduction" />
+        <module name="spring6-homework010" />
+        <module name="spring6-homework011" />
         <module name="mybatis-013-generator2" />
         <module name="mybatis-010-advanced-mapping" />
         <module name="mybatis-003-configuration" />
-        <module name="web-maven-02" />
         <module name="junit-test" />
         <module name="mybatis-006-antic" />
         <module name="mybatis-015-annotation" />
         <module name="mybatis-012-generator1" />
-        <module name="javase-maven-01" />
         <module name="mybatis-004-web" />
         <module name="mybatis-011-cache" />
         <module name="Hello" />
-        <module name="parse-xml-by-dom4j" />
+        <module name="spring6-homework004" />
         <module name="mybatis-008-select" />
-        <module name="mybatis-005-crud2" />
+        <module name="spring6-homework005" />
+        <module name="spring6-homework006" />
+        <module name="spring6-homework007" />
         <module name="javassist-test" />
-        <module name="mybatis-002-crud" />
+        <module name="spring6-homework008" />
+        <module name="spring6-homework009" />
         <module name="godbatis-test" />
+        <module name="mybatis-014-page" />
+        <module name="spring6-homework001" />
+        <module name="mybatis-009-dynamic-sql" />
+        <module name="spring6-homework002" />
+        <module name="godbatis" />
+        <module name="spring6-homework003" />
+        <module name="mybatis-007-param" />
+        <module name="mybatis-001-introduction" />
+        <module name="web-maven-02" />
+        <module name="javase-maven-01" />
+        <module name="parse-xml-by-dom4j" />
+        <module name="mybatis-005-crud2" />
+        <module name="mybatis-002-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis" target="13" />
+      <module name="spring6-001-revelation" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

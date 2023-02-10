@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--特殊符号注入-->
+    <!--第一种方式：使用转义字符代替-->
+    <bean id="Vip5" class="com.shamengxin.spring6.beans.Vip">
+        <property name="email" value="2 &lt; 3"/>
+    </bean>
+    <!--第二种方式：<![CDATA[]]>-->
+    <bean id="Vip6" class="com.shamengxin.spring6.beans.Vip">
+        <property name="email">
+            <!--只能使用value标签-->
+            <value><![CDATA[2 < 3]]></value>
+        </property>
+    </bean>
+
+    <!--给属性赋null-->
+    <!--第一种方式-->
+    <bean id="Vip1" class="com.shamengxin.spring6.beans.Vip">
+        <property name="email">
+            <null/>
+        </property>
+    </bean>
+    <!--第二种方式-->
+    <bean id="Vip4" class="com.shamengxin.spring6.beans.Vip"/>
+
+    <!--给属性赋空串-->
+    <!--第一种方式-->
+    <bean id="Vip2" class="com.shamengxin.spring6.beans.Vip">
+        <property name="email" value=""/>
+    </bean>
+
+    <!--第二种方式-->
+    <bean id="Vip3" class="com.shamengxin.spring6.beans.Vip">
+        <property name="email">
+            <value/>
+        </property>
+    </bean>
+
+</beans>

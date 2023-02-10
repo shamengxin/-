@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Customer1" class="com.shamengxin.spring6.beans.Customer" c:name="张三" c:age="20"/>
+
+    <bean id="Customer2" class="com.shamengxin.spring6.beans.Customer" c:_0="李四" c:_1="25"/>
+
+</beans>
