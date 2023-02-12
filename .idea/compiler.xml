@@ -9,6 +9,9 @@
         <module name="Maven" />
         <module name="spring6-homework010" />
         <module name="spring6-homework011" />
+        <module name="spring6-homework012" />
+        <module name="spring6-homework013" />
+        <module name="spring6-homework014" />
         <module name="mybatis-013-generator2" />
         <module name="mybatis-010-advanced-mapping" />
         <module name="mybatis-003-configuration" />
@@ -38,8 +41,12 @@
         <module name="mybatis-001-introduction" />
         <module name="web-maven-02" />
         <module name="javase-maven-01" />
+        <module name="spring6-homework015" />
         <module name="parse-xml-by-dom4j" />
+        <module name="spring6-homework016" />
         <module name="mybatis-005-crud2" />
+        <module name="spring6-homework017" />
+        <module name="spring6-homework018" />
         <module name="mybatis-002-crud" />
       </profile>
     </annotationProcessing>
