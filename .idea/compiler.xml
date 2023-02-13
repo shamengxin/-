@@ -47,6 +47,7 @@
         <module name="mybatis-005-crud2" />
         <module name="spring6-homework017" />
         <module name="spring6-homework018" />
+        <module name="spring6-homework019" />
         <module name="mybatis-002-crud" />
       </profile>
     </annotationProcessing>
