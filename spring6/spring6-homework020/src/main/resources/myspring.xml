@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="user" class="com.shamengxin.myspring.bean.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="20"/>
+        <property name="address" ref="address"/>
+    </bean>
+
+    <bean id="address" class="com.shamengxin.myspring.bean.Address">
+        <property name="local" value="湖北"/>
+    </bean>
+
+</beans>

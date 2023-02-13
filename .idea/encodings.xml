@@ -46,8 +46,12 @@
     <file url="file://$PROJECT_DIR$/mybatis/parse-xml-by-dom4j/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/myspring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/myspring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-001-revelation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-001-revelation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/spring6-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/spring6-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-homework001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-homework001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-homework002/src/main/java" charset="UTF-8" />
@@ -84,5 +88,9 @@
     <file url="file://$PROJECT_DIR$/spring6/spring6-homework017/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-homework018/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6/spring6-homework018/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/spring6-homework019/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/spring6-homework019/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/spring6-homework020/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6/spring6-homework020/src/main/resources" charset="UTF-8" />
   </component>
 </project>

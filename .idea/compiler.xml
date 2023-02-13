@@ -32,6 +32,7 @@
         <module name="spring6-homework009" />
         <module name="godbatis-test" />
         <module name="mybatis-014-page" />
+        <module name="spring6-homework020" />
         <module name="spring6-homework001" />
         <module name="mybatis-009-dynamic-sql" />
         <module name="spring6-homework002" />
@@ -41,13 +42,16 @@
         <module name="mybatis-001-introduction" />
         <module name="web-maven-02" />
         <module name="javase-maven-01" />
+        <module name="myspring" />
         <module name="spring6-homework015" />
         <module name="parse-xml-by-dom4j" />
         <module name="spring6-homework016" />
         <module name="mybatis-005-crud2" />
         <module name="spring6-homework017" />
         <module name="spring6-homework018" />
+        <module name="spring6-homework019" />
         <module name="mybatis-002-crud" />
+        <module name="spring6-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
