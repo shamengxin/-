@@ -33,6 +33,7 @@
         <module name="godbatis-test" />
         <module name="mybatis-014-page" />
         <module name="spring6-homework020" />
+        <module name="spring6-homework021" />
         <module name="spring6-homework001" />
         <module name="mybatis-009-dynamic-sql" />
         <module name="spring6-homework002" />
