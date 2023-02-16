@@ -48,6 +48,7 @@
         <module name="mybatis-006-antic" />
         <module name="mybatis-011-cache" />
         <module name="spring6-homework026" />
+        <module name="spring6-homework027" />
         <module name="javassist-test" />
         <module name="mybatis-014-page" />
         <module name="spring6-homework001" />
