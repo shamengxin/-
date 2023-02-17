@@ -43,12 +43,15 @@
         <module name="spring6-homework018" />
         <module name="spring6-homework019" />
         <module name="mybatis-002-crud" />
+        <module name="spring6-homework030" />
         <module name="mybatis-013-generator2" />
         <module name="mybatis-010-advanced-mapping" />
         <module name="mybatis-006-antic" />
         <module name="mybatis-011-cache" />
         <module name="spring6-homework026" />
         <module name="spring6-homework027" />
+        <module name="spring6-homework028" />
+        <module name="spring6-homework029" />
         <module name="javassist-test" />
         <module name="mybatis-014-page" />
         <module name="spring6-homework001" />
