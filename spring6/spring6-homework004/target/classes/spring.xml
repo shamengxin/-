@@ -14,6 +14,11 @@
         <!--可以使用构造函数参数名-->
         <constructor-arg name="userDao" ref="UserDaoBean"/>
         <constructor-arg name="orderDao" ref="OrderDaoBean"/>
+        <!--不指定下标和参数名也行，自动推断，但不建议-->
+        <!--
+        <constructor-arg ref="UserDaoBean"/>
+        <constructor-arg ref="OrderDaoBean"/>
+        -->
     </bean>
 
 </beans>

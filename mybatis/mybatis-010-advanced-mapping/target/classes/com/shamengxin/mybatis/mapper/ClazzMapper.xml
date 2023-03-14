@@ -11,7 +11,7 @@
         <result property="cname" column="cname"/>
         <collection property="stus"
                     select="com.shamengxin.mybatis.mapper.StudentMapper.selectByCidStep2"
-                    column="cid"/>
+                    column="cid" fetchType="eager"/>
     </resultMap>
     
     <select id="selectByStep1" resultMap="clazzResultMapStep">

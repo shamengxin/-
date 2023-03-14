@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/Maven/web-maven-02" />
-    <file type="web" url="file://$PROJECT_DIR$/mybatis/mybatis-004-web" />
+    <type id="web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -70,6 +69,8 @@
         <option value="$PROJECT_DIR$/spring6/spring6-homework028/pom.xml" />
         <option value="$PROJECT_DIR$/spring6/spring6-homework029/pom.xml" />
         <option value="$PROJECT_DIR$/spring6/spring6-homework030/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC/ch01-springmvc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

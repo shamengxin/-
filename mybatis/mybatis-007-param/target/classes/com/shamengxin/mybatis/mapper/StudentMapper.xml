@@ -7,6 +7,11 @@
 
     <select id="selectByNameAndSex2" resultType="Student">
         select * from t_student where name=#{name} and sex=#{sex}
+        <!--使用了@Param注解之后，arg0和arg1失效了-->
+        <!--select * from t_student where name=#{arg0} and sex=#{arg1}-->
+
+        <!--使用了@Param注解之后，param1和param2还可以使用-->
+        <!--select * from t_student where name=#{param1} and sex=#{param2}-->
     </select>
 
     <!--
