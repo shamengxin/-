@@ -71,6 +71,7 @@
         <option value="$PROJECT_DIR$/spring6/spring6-homework030/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC/ch01-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC/ch02-requestmapping/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

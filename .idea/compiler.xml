@@ -54,6 +54,7 @@
         <module name="spring6-homework029" />
         <module name="javassist-test" />
         <module name="mybatis-014-page" />
+        <module name="ch02-requestmapping" />
         <module name="spring6-homework001" />
         <module name="mybatis-009-dynamic-sql" />
         <module name="spring6-homework002" />
@@ -67,6 +68,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ch02-springmvc" target="1.5" />
+      <module name="ch03-springmvc" target="17" />
       <module name="mybatis" target="13" />
       <module name="spring6-001-revelation" target="17" />
       <module name="springMVC" target="17" />

@@ -11,12 +11,6 @@
             在Servlet的init()方法中，创建springmvc使用的容器对象WebApplicationContext。
             WebApplicationContext ctx = new ClassPathXmlApplicationContext(配置文件)
             配置文件的默认路径： /WEB-INF/ <servlet-name>-servlet.xml
-
-            DispatcherServlet作用：
-                1.在init()中创建springmvc容器对象 WebApplicationContext，创建springmvc配置文件在的所有Java对象
-                  java对象，就是Controller对象。
-                2.DispatcherServlet是一个Servlet，能够接收请求。
-
     -->
     <servlet>
         <servlet-name>myweb</servlet-name>

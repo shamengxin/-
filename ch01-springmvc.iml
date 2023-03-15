@@ -10,8 +10,8 @@
           <root url="file://$MODULE_DIR$/springMVC/ch01-springmvc/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/springMVC/ch01-springmvc/src/main/resources" />
           <root url="file://$MODULE_DIR$/springMVC/ch01-springmvc/src/main/java" />
+          <root url="file://$MODULE_DIR$/springMVC/ch01-springmvc/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
