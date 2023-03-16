@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springMVC/ch02-springmvc/ch02-springmvc.iml" filepath="$PROJECT_DIR$/springMVC/ch02-springmvc/ch02-springmvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch03-springmvc.iml" filepath="$PROJECT_DIR$/ch03-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java框架.iml" filepath="$PROJECT_DIR$/.idea/java框架.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6/spring6.iml" filepath="$PROJECT_DIR$/spring6/spring6.iml" />

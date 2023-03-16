@@ -2,11 +2,14 @@
 
 <html>
 <head>
-    <title>第一个springmvc</title>
+    <title>请求方式</title>
 </head>
 <body>
-    <a href="student/add.do">发起student/add.do的请求</a>
+    <a href="first.do">发起some的get请求</a>
     <br>
-    <a href="student/query.do">发起student/query.do</a>
+    <br>
+    <form action="first.do" method="post">
+        <input type="submit" value="post请求">
+    </form>
 </body>
 </html>

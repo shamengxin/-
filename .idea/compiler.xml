@@ -19,6 +19,7 @@
         <module name="mybatis-004-web" />
         <module name="Hello" />
         <module name="spring6-homework004" />
+        <module name="ch03-receive-param" />
         <module name="mybatis-008-select" />
         <module name="spring6-homework005" />
         <module name="spring6-homework006" />
