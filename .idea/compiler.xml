@@ -44,6 +44,7 @@
         <module name="spring6-homework018" />
         <module name="spring6-homework019" />
         <module name="mybatis-002-crud" />
+        <module name="ch04-return-result" />
         <module name="spring6-homework030" />
         <module name="mybatis-013-generator2" />
         <module name="mybatis-010-advanced-mapping" />

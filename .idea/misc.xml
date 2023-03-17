@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/springMVC/ch01-springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC/ch02-requestmapping/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC/ch03-receive-param/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC/ch04-return-result/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
