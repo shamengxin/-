@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>请求方式</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <p>控制器方法返回String-逻辑视图名称</p>
@@ -19,5 +20,9 @@
         年龄：<input type="text" name="age"><br>
         <input type="submit" value="提交参数">
     </form>
+
+    <br>
+    <br>
+    <button id="btnAjax">发起ajax请求</button>
 </body>
 </html>
