@@ -12,6 +12,7 @@
         <module name="spring6-homework012" />
         <module name="spring6-homework013" />
         <module name="spring6-homework014" />
+        <module name="ch05-url-pattern" />
         <module name="mybatis-003-configuration" />
         <module name="junit-test" />
         <module name="mybatis-015-annotation" />
@@ -72,6 +73,7 @@
     <bytecodeTargetLevel>
       <module name="ch02-springmvc" target="1.5" />
       <module name="ch03-springmvc" target="17" />
+      <module name="ch06-SSM" target="1.8" />
       <module name="mybatis" target="13" />
       <module name="spring6-001-revelation" target="17" />
       <module name="springMVC" target="17" />

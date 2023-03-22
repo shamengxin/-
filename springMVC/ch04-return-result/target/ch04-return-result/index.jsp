@@ -3,6 +3,35 @@
 <html>
 <head>
     <title>请求方式</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(function (){
+            //绑定事件
+            $("#btnAjax").click(function (){
+                $.ajax({
+                    // url:"return-void-ajax.do",
+                    // url:"doStudentJson.do",
+                    // url:"doListJsonArray.do",
+                    url:"doStirngData.do",
+                    data:{
+                        name:"lisi",
+                        age:20
+                    },
+                    // dataType:"json",
+                    dataType:"text",
+                    success:function (resp){
+                        //resp = XMLHttpRequest.responseText;
+                        // alert("resp==="+resp.name+"===="+resp.age)
+                        // $.each(resp,function (i,n){
+                        //     alert("name="+n.name+"===age="+n.age)
+                        // })
+
+                        alert("resp=="+resp)
+                    }
+                })
+            })
+        })
+    </script>
 </head>
 <body>
     <p>控制器方法返回String-逻辑视图名称</p>
@@ -19,5 +48,9 @@
         年龄：<input type="text" name="age"><br>
         <input type="submit" value="提交参数">
     </form>
+
+    <br>
+    <br>
+    <button id="btnAjax">发起ajax请求</button>
 </body>
 </html>
